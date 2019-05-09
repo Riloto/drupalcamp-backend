@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains forcontu_hello.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function forcontu_hello_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the forcontu_hello module.
+    case 'help.page.forcontu_hello':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Mi primer modulo') . '</p>';
+      return $output;
+
+    default:
+  }
+}

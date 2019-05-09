@@ -1,0 +1,15 @@
+
+forcontu_hello.default_controller_simple:
+  path: '/forcontu/simple'
+  defaults:
+    _controller: '\Drupal\forcontu_hello\Controller\DefaultController::simple'
+    _title: 'Simple'
+  requirements:
+    _permission: 'access content'
+forcontu_hello.default_controller_calculator:
+  path: '/forcontu/calculator'
+  defaults:
+    _controller: '\Drupal\forcontu_hello\Controller\DefaultController::calculator'
+    _title: 'Calculator'
+  requirements:
+    _permission: 'access content'

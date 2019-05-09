@@ -1,0 +1,5 @@
+name: 'Forcontu Hello'
+type: module
+description: 'Mi primer modulo'
+core: 8.x
+package: 'Forcontu'

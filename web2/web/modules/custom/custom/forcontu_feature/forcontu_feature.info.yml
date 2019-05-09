@@ -1,0 +1,14 @@
+name: 'Forcontu Feature'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - field
+  - image
+  - node
+  - path
+  - rdf
+  - taxonomy
+  - text
+  - user
+version: 8.x-1.0
